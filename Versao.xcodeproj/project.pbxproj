@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		781ECE401986C1A2000EC5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781ECE3F1986C1A2000EC5BE /* Foundation.framework */; };
+		781ECE421986C1A2000EC5BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781ECE411986C1A2000EC5BE /* CoreGraphics.framework */; };
+		781ECE441986C1A2000EC5BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781ECE431986C1A2000EC5BE /* UIKit.framework */; };
+		781ECE461986C1A2000EC5BE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781ECE451986C1A2000EC5BE /* CoreData.framework */; };
+		781ECE4C1986C1A2000EC5BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 781ECE4A1986C1A2000EC5BE /* InfoPlist.strings */; };
+		781ECE4E1986C1A2000EC5BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECE4D1986C1A2000EC5BE /* main.m */; };
+		781ECE521986C1A2000EC5BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECE511986C1A2000EC5BE /* AppDelegate.m */; };
+		781ECE551986C1A2000EC5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781ECE531986C1A2000EC5BE /* Main.storyboard */; };
+		781ECE581986C1A2000EC5BE /* Versao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 781ECE561986C1A2000EC5BE /* Versao.xcdatamodeld */; };
+		781ECE5B1986C1A2000EC5BE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECE5A1986C1A2000EC5BE /* MasterViewController.m */; };
+		781ECE5E1986C1A2000EC5BE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECE5D1986C1A2000EC5BE /* DetailViewController.m */; };
+		781ECE601986C1A2000EC5BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 781ECE5F1986C1A2000EC5BE /* Images.xcassets */; };
+		781ECE671986C1A2000EC5BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781ECE661986C1A2000EC5BE /* XCTest.framework */; };
+		781ECE681986C1A2000EC5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781ECE3F1986C1A2000EC5BE /* Foundation.framework */; };
+		781ECE691986C1A2000EC5BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781ECE431986C1A2000EC5BE /* UIKit.framework */; };
+		781ECE6A1986C1A2000EC5BE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781ECE451986C1A2000EC5BE /* CoreData.framework */; };
+		781ECE721986C1A2000EC5BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 781ECE701986C1A2000EC5BE /* InfoPlist.strings */; };
+		781ECE741986C1A2000EC5BE /* VersaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 781ECE731986C1A2000EC5BE /* VersaoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		781ECE6B1986C1A2000EC5BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 781ECE341986C1A2000EC5BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 781ECE3B1986C1A2000EC5BE;
+			remoteInfo = Versao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		781ECE3C1986C1A2000EC5BE /* Versao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Versao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		781ECE3F1986C1A2000EC5BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		781ECE411986C1A2000EC5BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		781ECE431986C1A2000EC5BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		781ECE451986C1A2000EC5BE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		781ECE491986C1A2000EC5BE /* Versao-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Versao-Info.plist"; sourceTree = "<group>"; };
+		781ECE4B1986C1A2000EC5BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		781ECE4D1986C1A2000EC5BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		781ECE4F1986C1A2000EC5BE /* Versao-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Versao-Prefix.pch"; sourceTree = "<group>"; };
+		781ECE501986C1A2000EC5BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		781ECE511986C1A2000EC5BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		781ECE541986C1A2000EC5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		781ECE571986C1A2000EC5BE /* Versao.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Versao.xcdatamodel; sourceTree = "<group>"; };
+		781ECE591986C1A2000EC5BE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		781ECE5A1986C1A2000EC5BE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		781ECE5C1986C1A2000EC5BE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		781ECE5D1986C1A2000EC5BE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		781ECE5F1986C1A2000EC5BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		781ECE651986C1A2000EC5BE /* VersaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VersaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		781ECE661986C1A2000EC5BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		781ECE6F1986C1A2000EC5BE /* VersaoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VersaoTests-Info.plist"; sourceTree = "<group>"; };
+		781ECE711986C1A2000EC5BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		781ECE731986C1A2000EC5BE /* VersaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VersaoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		781ECE391986C1A2000EC5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781ECE421986C1A2000EC5BE /* CoreGraphics.framework in Frameworks */,
+				781ECE461986C1A2000EC5BE /* CoreData.framework in Frameworks */,
+				781ECE441986C1A2000EC5BE /* UIKit.framework in Frameworks */,
+				781ECE401986C1A2000EC5BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781ECE621986C1A2000EC5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781ECE671986C1A2000EC5BE /* XCTest.framework in Frameworks */,
+				781ECE6A1986C1A2000EC5BE /* CoreData.framework in Frameworks */,
+				781ECE691986C1A2000EC5BE /* UIKit.framework in Frameworks */,
+				781ECE681986C1A2000EC5BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		781ECE331986C1A2000EC5BE = {
+			isa = PBXGroup;
+			children = (
+				781ECE471986C1A2000EC5BE /* Versao */,
+				781ECE6D1986C1A2000EC5BE /* VersaoTests */,
+				781ECE3E1986C1A2000EC5BE /* Frameworks */,
+				781ECE3D1986C1A2000EC5BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		781ECE3D1986C1A2000EC5BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				781ECE3C1986C1A2000EC5BE /* Versao.app */,
+				781ECE651986C1A2000EC5BE /* VersaoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		781ECE3E1986C1A2000EC5BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				781ECE3F1986C1A2000EC5BE /* Foundation.framework */,
+				781ECE411986C1A2000EC5BE /* CoreGraphics.framework */,
+				781ECE431986C1A2000EC5BE /* UIKit.framework */,
+				781ECE451986C1A2000EC5BE /* CoreData.framework */,
+				781ECE661986C1A2000EC5BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		781ECE471986C1A2000EC5BE /* Versao */ = {
+			isa = PBXGroup;
+			children = (
+				781ECE501986C1A2000EC5BE /* AppDelegate.h */,
+				781ECE511986C1A2000EC5BE /* AppDelegate.m */,
+				781ECE531986C1A2000EC5BE /* Main.storyboard */,
+				781ECE591986C1A2000EC5BE /* MasterViewController.h */,
+				781ECE5A1986C1A2000EC5BE /* MasterViewController.m */,
+				781ECE5C1986C1A2000EC5BE /* DetailViewController.h */,
+				781ECE5D1986C1A2000EC5BE /* DetailViewController.m */,
+				781ECE5F1986C1A2000EC5BE /* Images.xcassets */,
+				781ECE561986C1A2000EC5BE /* Versao.xcdatamodeld */,
+				781ECE481986C1A2000EC5BE /* Supporting Files */,
+			);
+			path = Versao;
+			sourceTree = "<group>";
+		};
+		781ECE481986C1A2000EC5BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				781ECE491986C1A2000EC5BE /* Versao-Info.plist */,
+				781ECE4A1986C1A2000EC5BE /* InfoPlist.strings */,
+				781ECE4D1986C1A2000EC5BE /* main.m */,
+				781ECE4F1986C1A2000EC5BE /* Versao-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		781ECE6D1986C1A2000EC5BE /* VersaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				781ECE731986C1A2000EC5BE /* VersaoTests.m */,
+				781ECE6E1986C1A2000EC5BE /* Supporting Files */,
+			);
+			path = VersaoTests;
+			sourceTree = "<group>";
+		};
+		781ECE6E1986C1A2000EC5BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				781ECE6F1986C1A2000EC5BE /* VersaoTests-Info.plist */,
+				781ECE701986C1A2000EC5BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		781ECE3B1986C1A2000EC5BE /* Versao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781ECE771986C1A2000EC5BE /* Build configuration list for PBXNativeTarget "Versao" */;
+			buildPhases = (
+				781ECE381986C1A2000EC5BE /* Sources */,
+				781ECE391986C1A2000EC5BE /* Frameworks */,
+				781ECE3A1986C1A2000EC5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Versao;
+			productName = Versao;
+			productReference = 781ECE3C1986C1A2000EC5BE /* Versao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		781ECE641986C1A2000EC5BE /* VersaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 781ECE7A1986C1A2000EC5BE /* Build configuration list for PBXNativeTarget "VersaoTests" */;
+			buildPhases = (
+				781ECE611986C1A2000EC5BE /* Sources */,
+				781ECE621986C1A2000EC5BE /* Frameworks */,
+				781ECE631986C1A2000EC5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				781ECE6C1986C1A2000EC5BE /* PBXTargetDependency */,
+			);
+			name = VersaoTests;
+			productName = VersaoTests;
+			productReference = 781ECE651986C1A2000EC5BE /* VersaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		781ECE341986C1A2000EC5BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BEPiD;
+				TargetAttributes = {
+					781ECE641986C1A2000EC5BE = {
+						TestTargetID = 781ECE3B1986C1A2000EC5BE;
+					};
+				};
+			};
+			buildConfigurationList = 781ECE371986C1A2000EC5BE /* Build configuration list for PBXProject "Versao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 781ECE331986C1A2000EC5BE;
+			productRefGroup = 781ECE3D1986C1A2000EC5BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				781ECE3B1986C1A2000EC5BE /* Versao */,
+				781ECE641986C1A2000EC5BE /* VersaoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		781ECE3A1986C1A2000EC5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781ECE601986C1A2000EC5BE /* Images.xcassets in Resources */,
+				781ECE4C1986C1A2000EC5BE /* InfoPlist.strings in Resources */,
+				781ECE551986C1A2000EC5BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781ECE631986C1A2000EC5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781ECE721986C1A2000EC5BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		781ECE381986C1A2000EC5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781ECE5E1986C1A2000EC5BE /* DetailViewController.m in Sources */,
+				781ECE5B1986C1A2000EC5BE /* MasterViewController.m in Sources */,
+				781ECE521986C1A2000EC5BE /* AppDelegate.m in Sources */,
+				781ECE4E1986C1A2000EC5BE /* main.m in Sources */,
+				781ECE581986C1A2000EC5BE /* Versao.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781ECE611986C1A2000EC5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781ECE741986C1A2000EC5BE /* VersaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		781ECE6C1986C1A2000EC5BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 781ECE3B1986C1A2000EC5BE /* Versao */;
+			targetProxy = 781ECE6B1986C1A2000EC5BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		781ECE4A1986C1A2000EC5BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				781ECE4B1986C1A2000EC5BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		781ECE531986C1A2000EC5BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				781ECE541986C1A2000EC5BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		781ECE701986C1A2000EC5BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				781ECE711986C1A2000EC5BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		781ECE751986C1A2000EC5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		781ECE761986C1A2000EC5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		781ECE781986C1A2000EC5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Versao/Versao-Prefix.pch";
+				INFOPLIST_FILE = "Versao/Versao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		781ECE791986C1A2000EC5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Versao/Versao-Prefix.pch";
+				INFOPLIST_FILE = "Versao/Versao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		781ECE7B1986C1A2000EC5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Versao.app/Versao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Versao/Versao-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VersaoTests/VersaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		781ECE7C1986C1A2000EC5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Versao.app/Versao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Versao/Versao-Prefix.pch";
+				INFOPLIST_FILE = "VersaoTests/VersaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		781ECE371986C1A2000EC5BE /* Build configuration list for PBXProject "Versao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781ECE751986C1A2000EC5BE /* Debug */,
+				781ECE761986C1A2000EC5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		781ECE771986C1A2000EC5BE /* Build configuration list for PBXNativeTarget "Versao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781ECE781986C1A2000EC5BE /* Debug */,
+				781ECE791986C1A2000EC5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		781ECE7A1986C1A2000EC5BE /* Build configuration list for PBXNativeTarget "VersaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				781ECE7B1986C1A2000EC5BE /* Debug */,
+				781ECE7C1986C1A2000EC5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		781ECE561986C1A2000EC5BE /* Versao.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				781ECE571986C1A2000EC5BE /* Versao.xcdatamodel */,
+			);
+			currentVersion = 781ECE571986C1A2000EC5BE /* Versao.xcdatamodel */;
+			path = Versao.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 781ECE341986C1A2000EC5BE /* Project object */;
+}
