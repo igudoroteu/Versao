@@ -89,6 +89,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7815D4171986D2C600C140F3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				781ECE591986C1A2000EC5BE /* MasterViewController.h */,
+				781ECE5A1986C1A2000EC5BE /* MasterViewController.m */,
+				781ECE5C1986C1A2000EC5BE /* DetailViewController.h */,
+				781ECE5D1986C1A2000EC5BE /* DetailViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7815D4181986D33C00C140F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				781ECE531986C1A2000EC5BE /* Main.storyboard */,
+				781ECE5F1986C1A2000EC5BE /* Images.xcassets */,
+				781ECE561986C1A2000EC5BE /* Versao.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		781ECE331986C1A2000EC5BE = {
 			isa = PBXGroup;
 			children = (
@@ -125,13 +146,8 @@
 			children = (
 				781ECE501986C1A2000EC5BE /* AppDelegate.h */,
 				781ECE511986C1A2000EC5BE /* AppDelegate.m */,
-				781ECE531986C1A2000EC5BE /* Main.storyboard */,
-				781ECE591986C1A2000EC5BE /* MasterViewController.h */,
-				781ECE5A1986C1A2000EC5BE /* MasterViewController.m */,
-				781ECE5C1986C1A2000EC5BE /* DetailViewController.h */,
-				781ECE5D1986C1A2000EC5BE /* DetailViewController.m */,
-				781ECE5F1986C1A2000EC5BE /* Images.xcassets */,
-				781ECE561986C1A2000EC5BE /* Versao.xcdatamodeld */,
+				7815D4181986D33C00C140F3 /* Resources */,
+				7815D4171986D2C600C140F3 /* View Controllers */,
 				781ECE481986C1A2000EC5BE /* Supporting Files */,
 			);
 			path = Versao;
@@ -472,6 +488,7 @@
 				781ECE791986C1A2000EC5BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		781ECE7A1986C1A2000EC5BE /* Build configuration list for PBXNativeTarget "VersaoTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +497,7 @@
 				781ECE7C1986C1A2000EC5BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
